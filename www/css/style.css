@@ -1,0 +1,316 @@
+/* Empty. Add your own CSS if you like */
+fader {
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.5);
+  
+  z-index: 9999; 
+}
+.imagelogo{
+    widows: 150px;
+    height: 150px;
+    text-align: center;
+}
+.imageprofile{
+    width: 60px;
+    height: 60px;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    
+    border-radius: 100px;
+}
+.imageMain{
+  height: 85vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+.divmain{
+  background: transparent;
+  height: 84vh;
+}
+.divmain1{
+  background: transparent;
+  height: 84vh;
+}
+.divmain2{
+  background: transparent;
+  height: 84vh;
+}
+.divmain3{
+  background: transparent;
+  height: 84vh;
+}
+.divmain4{
+  background: transparent;
+  height: 84vh;
+}
+.gallery {
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.friendplace .item{
+    border: 0px;
+}
+.menu-gauche .item{
+    padding: 11px !important;
+}
+.parametre .item{
+    padding: 11px !important;
+}
+.favoris .item-divider{
+    color: black;
+    border: 0px;
+    background: white;
+    padding-left: 5px;
+    font-size:12px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.favoris .card{
+    border: 0px;
+    box-shadow: 0px;
+}
+.textconnexion{
+    float: right;
+    margin-top: 15px;
+    font-size: 10px;
+    color: #CC542F;
+    margin-bottom: 30px;
+}
+.boutonconnexion{
+    background: #CC542F;
+    border-radius: 15px;
+    height: 35px;
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+    
+
+}
+.boutonconnexion:hover{
+    background: #CC542F;
+    border-radius: 15px;
+    height: 35px;
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+    
+
+}
+.boutonfacebook{
+    background: #3B5998;
+    border-radius: 15px;
+    height: 35px;
+    
+    color: white;
+    font-size: 15px;
+}
+.boutonfacebook:hover{
+    background: #3B5998;
+    border-radius: 15px;
+    height: 35px;
+    
+    color: white;
+    font-size: 15px;
+}
+.boutongoogle{
+    background: #DB4437;
+    border-radius: 15px;
+    height: 35px;
+    color: white;
+    font-size: 15px;
+}
+.boutongoogle:hover{
+    background: #DB4437;
+    border-radius: 15px;
+    height: 35px;
+    color: white;
+    font-size: 15px;
+}
+.connexion .item-input{
+    
+    border: 0px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid silver;
+}
+.imageprofileprofile{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+    border: 2px solid #fde148;
+    border-radius: 50px;
+}
+.connectivite{
+    color: #98BF0A;   
+}
+.style{
+    width: 70px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.color{
+    width: 70px;
+    height: 70px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.background{
+    background: url(../img/10.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.background_menu{
+  background: #CE2D4C;
+}
+.btn-login{
+    background: #fde148;
+    color: white;
+    border-radius: 0px;
+}
+.input-login{
+    margin-bottom: 10px;
+    border: 1px solid #fde148;
+}
+.commentType{
+    margin-bottom: 10px;
+    border: 1px solid #CE2D4C;
+    height: 150px;
+    resize: none;
+}
+.icon-login{
+    font-size: 20px;
+    color: #fde148;
+}
+.checkbox-login{
+    background: #F1D6A1;
+    border: 0px;
+    margin-left: -7px;
+}
+.titre-login{
+    margin-top: -10px;
+    color: white;
+    font-size: 11px;
+    margin-left: 5px;
+
+}
+.titre-nom{
+    margin-top: -10px;
+    color: white;
+    font-size: 13px;
+    margin-left: -25px;
+
+}
+.titre-deconnexion{
+    
+    color: white;
+    font-size: 11px;
+    margin-left: 5px;
+    margin-top: 100px;
+
+}
+
+.espace-icon-login{
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+.espace-icon-menu{
+    margin-top: 10px;
+}
+.espace-icon-menu1{
+    background: url(../img/i4.jpg);
+    
+    height: 130px;
+    border-bottom: 2px solid #CC542F;
+}
+
+
+.espace-icon-commentaire{
+    margin-bottom: 10px;
+}
+
+.espace-icon-pageMenu{
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.titre-menu{
+    margin-top: -10px;
+    color: white;
+}
+
+.imagemenu{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 180px;
+    margin-top: 10px;
+}
+.imagesousmenu{
+    width:80px;
+    height: 80px;
+    text-align: center;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 30%;
+}
+
+.footer{
+    padding-left: 0px;
+    
+}
+
+.footertop{
+    background: white !important;
+    border-top:0px solid #EE78A8 !important;
+}
+
+.headertop{
+    background: #CC542F !important;
+    border-bottom:0px solid #EE78A8 !important;
+}
+
+
+.menu-gauche a{
+    background: white;  
+    border: none;
+    color: black;
+    font-size: 14px;
+    font-weight: normal;
+    
+
+}
+.menu-gauche b{
+    background: white;  
+    border: none;
+    color: black;
+    font-size: 14px;
+    font-weight: normal;
+    margin-left: 40px;
+    
+
+}
+.menu-gauche .badge-assertive{
+    background: white;  
+    color: #6F4A33;
+}
+.list-notification a{
+    border: 1px solid #F1D6A1;   
+    background: #F5F5DC
+
+}
+
+
+.btn-trash{
+    color: #582D1C;   
+}
+
+
+
+

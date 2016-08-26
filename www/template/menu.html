@@ -1,0 +1,91 @@
+<ion-side-menus >
+  <!-- Left menu -->
+  
+    <ion-side-menu side="left">
+            <ion-view class="background">
+
+              <ion-content overflow-scroll="false">
+                    <div class="row row-center espace-icon-menu1">
+                      <div class="col col-40 text-left">
+                        <img src="img/lotfi.jpg" class="imageprofile">
+                        <h4 class="titre-login">Change photo</h4>   
+                      </div>
+                      <div class="col col-20 text-left">
+                        
+                        <h4 class="titre-nom">Dridi lotfi</h4>   
+                      </div>
+                      <div class="col col-40 text-right">
+                        
+                        <h4 class="titre-deconnexion">Déconnexion</h4>   
+                      </div>
+                    </div>
+                    <div class="list menu-gauche">
+
+                      <a menu-close class="item item-icon-left" ui-sref="menu.recette">
+                        <i class="icon ion-ios-game-controller-b" style="font-size: 25px;"></i>
+                        <b>Recettes</b>
+                        
+                      </a>
+                      <a menu-close class="item item-icon-left" ui-sref="menu.favoris">
+                        <i class="icon ion-ios-star-outline" style="font-size: 25px;"></i>
+                        <b>Mes Favoris</b>
+                        
+                      </a>
+                      <a menu-close class="item item-icon-left" ui-sref="menu.recette">
+                        <i class="icon ion-map" style="font-size: 25px;"></i>
+                        <b>Top Recettes</b>
+                        
+                      </a>
+                      <a menu-close class="item item-icon-left" ui-sref="menu.recette">
+                        <i class="icon ion-wineglass" style="font-size: 25px;"></i>
+                        <b>Entrées</b>
+                        
+                      </a>
+                      <a menu-close class="item item-icon-left" ui-sref="menu.recette">
+                        <i class="icon ion-ios-people" style="font-size: 25px;"></i>
+                        <b>Plat principal</b>
+                        
+                      </a>
+                      <a menu-close class="item item-icon-left" ui-sref="menu.inscription">
+                        <i class="icon ion-android-favorite" style="font-size: 25px;"></i>
+                        <b>Dessert & Cocktails</b>
+                      </a>
+                      <a menu-close class="item item-icon-left" ui-sref="menu.connexion">
+                        <i class="icon ion-person" style="font-size: 25px;"></i>
+                        <b>Végétarian</b>
+                      </a>
+                      <a menu-close class="item item-icon-left" ui-sref="menu.parametre">
+                        <i class="icon ion-ios-gear-outline" style="font-size: 25px;"></i>
+                        <b>Parametres</b>
+                      </a>
+                    </div>
+                    
+              </ion-content>
+                
+            </ion-view>
+  </ion-side-menu>
+
+
+  <ion-side-menu-content>
+          <fader ng-show="isOpen()" class="animated fadeIn" style="display: none;" id="fader"></fader>
+          <ion-nav-bar class="bar-positive headertop">
+            <ion-nav-buttons side="left">
+                <button menu-toggle="left" class="button button-icon icon ion-navicon" style="color:white;"></button>
+            </ion-nav-buttons>
+            <ion-nav-buttons side="right">
+                <button  class="button button-icon icon ion-ios-search" style="color:white;"></button>
+            </ion-nav-buttons>
+         </ion-nav-bar>
+        <ion-nav-view name="side-menu21"></ion-nav-view>
+        
+      
+  </ion-side-menu-content>
+    
+    
+</ion-side-menus>
+
+
+
+
+
+    
